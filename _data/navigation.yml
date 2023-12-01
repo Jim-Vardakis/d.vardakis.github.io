@@ -16,7 +16,7 @@ main:
     url: /year-archive/
 
   - title: "test pdf link"
-    url: /files/paper1.pdf
+    url: /files/paper1.pdf/
     
   - title: "CV"
     url: /cv/
