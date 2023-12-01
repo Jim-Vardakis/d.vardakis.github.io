@@ -83,8 +83,8 @@ author:
   name             : "Dimitris Vardakis"
   avatar           : "profile.png"
   bio              : "Your biography for the left-hand sidebar"
+  employer         : "Julius-Maximilians-Universität"  #  "JMU Würzburg"
   location         : "Würzburg, Germany"
-  employer         : "Julius-Maximilians-Universität Würzburg"  #  "JMU Würzburg"
   pubmed           : # "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
   googlescholar    : # "http://yourfullgooglescholarurl.com"
   email            : "dimitrios.vardakis@uni-wuerzburg.de"
@@ -107,7 +107,7 @@ author:
   pinterest        :
   soundcloud       :
   stackoversflow   :
-  texstackexchange : 87968/jim
+  texstackexchange : "87968/jim"
   steam            :
   tumblr           :
   twitter          : # "replacethistwitterhandle"
