@@ -106,7 +106,8 @@ author:
   orcid            : # "http://orcid.org/yourorcidurl"
   pinterest        :
   soundcloud       :
-  stackexchange    : https://tex.stackexchange.com/users/87968/jim
+  stackoversflow   :
+  texstackexchange : https://tex.stackexchange.com/users/87968/jim
   steam            :
   tumblr           :
   twitter          : # "replacethistwitterhandle"
