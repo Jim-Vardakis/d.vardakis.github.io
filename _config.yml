@@ -10,7 +10,7 @@ locale                   : "en-US"
 title                    : "Dimitris Homepage"
 title_separator          : "-"
 name                     : &name "Dimitris Vardakis"
-description              : &description "<i class="fa-sharp fa-solid fa-house"></i>"
+description              : &description <i class="fa-sharp fa-solid fa-house"></i>
 url                      : https://jim-vardakis.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "jim-vardakis/jim-vardakis.github.io"
