@@ -7,7 +7,7 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : <i class="fa-sharp fa-solid fa-house"></i>
+title                    : "Home"
 title_separator          : "-"
 name                     : &name "Dimitris Vardakis"
 description              : &description "My Webpage"
