@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-I finished my undergraduate studies at the [University of Crete](http://www.math.uoc.gr/en/) in Greece, and then completed my PhD at [Michigan State University](https://math.msu.edu/) under the supervision of [Alexander Volberg](https://www.researchgate.net/profile/Alexander-Volberg). Currently, I am doing my postdoctoral studies at [Julius-Maximilians-Universität Würzburg](https://www.mathematik.uni-wuerzburg.de/en/) in Germany.
+I finished my undergraduate studies at the University of Crete in Greece, and then completed my PhD at Michigan State University under the supervision of [Alexander Volberg](https://www.researchgate.net/profile/Alexander-Volberg). Currently, I am doing my postdoctoral studies at Julius-Maximilians-Universität Würzburg in Germany.
 
 A data-driven personal website
 ======
