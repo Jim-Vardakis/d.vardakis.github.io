@@ -1,7 +1,7 @@
 ---
 title: "The Buffon's needle problem for random planar disk-like Cantor sets"
 collection: publications
-permalink: https://doi.org/10.1016/j.jmaa.2023.127622}{10.1016/j.jmaa.2023.127622
+permalink: https://doi.org/10.1016/j.jmaa.2023.127622
 excerpt: 'This paper is about the number 2. The number 3 is left for future work.'
 date: 2010-10-01
 venue: 'Journal 1'
