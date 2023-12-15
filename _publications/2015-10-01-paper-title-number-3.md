@@ -6,7 +6,7 @@ title:       "Paper Title Number 3"
 authors:     "Dimitris Vardakis, Alexander Volberg"
 date:        2015-10-01
 journal:     "Journal 1"
-volume:      166
+volume:      
 issue:       6
 number:      0
 pages:       '263&ndash;297'
