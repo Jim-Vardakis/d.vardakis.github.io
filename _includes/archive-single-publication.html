@@ -16,7 +16,9 @@
   <article>
 
     <p>{{ post.authors }}<br>
-      <strong>{{ title }}.</strong> [<a href="{{ post.file }}">PDF</a>]</p>
+      <strong>{{ title }}</strong> [<a href="{{ post.file }}">PDF</a>]</p>
+
+    <p>text</p>
 
     {% if post.arxiv and post.doi %}
       <p>arXiv: <a href=" https://arxiv.org/abs/{{ post.arxiv }} ">{{ post.arxiv }}</a> &mdash; DOI: <a href=" https://doi.org/{{ post.doi }} ">{{ post.doi }}</a></p>
