@@ -21,9 +21,9 @@
     <p>In: <i>{{ post.journal }}</i> <b>{{ post.volume }}</b>.{{ post.issue }}({{ post.number }}) {{ post.date | default: "1900-01-01" | date: "(%Y)" }}, pp {{ post.pages }}</p>
 
     {% if post.number %}
-      post number
-    {%else %}
-      no post number
+      <p>In: <i>{{ post.journal }}</i> <b>{{ post.volume }}</b>.{{ post.issue }}({{ post.number }}) {{ post.date | default: "1900-01-01" | date: "(%Y)" }}, pp {{ post.pages }}</p>
+    {% else %}
+      <p>In: <i>{{ post.journal }}</i> <b>{{ post.volume }}</b>.{{ post.issue }} {{ post.date | default: "1900-01-01" | date: "(%Y)" }}, pp {{ post.pages }}</p>
     {% endif %}
     
     {% if post.arxiv and post.doi %}
