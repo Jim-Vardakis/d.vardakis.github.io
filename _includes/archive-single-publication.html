@@ -35,6 +35,10 @@
           In: <i>{{ post.journal }}</i> <b>{{ post.volume }}</b> {{ post.date | default: "1900-01-01" | date: "(%Y)" }}, pp {{ post.pages }}<br>
         {% endif %}
       {% endif %}
+
+      {% if preprint %}
+        is a preprint
+      {% endif %}
     
       {% if post.arxiv and post.doi %}
         arXiv: <a href=" https://arxiv.org/abs/{{ post.arxiv }} ">{{ post.arxiv }}</a> &mdash; DOI: <a href=" https://doi.org/{{ post.doi }} ">{{ post.doi }}</a>
