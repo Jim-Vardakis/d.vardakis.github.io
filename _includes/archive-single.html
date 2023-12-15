@@ -26,12 +26,9 @@
       </div>
     {% endif %}
 
-    {% if post.authors %}
-      <p>{{ post.authors}}.</p>
-    {% endif %}
-    {% if post.file %}
-      [<a href="{{ post.file }}?">PDF</a>]
-    {% endif %}
+    <p>{{ post.authors }}.<br>
+      <q>{{ title }}.</q> [<a href="{{ post.file }}?">PDF</a>
+      </p>
     
     <h3 class="archive__item-title" itemprop="headline">
       {% if post.link %}
