@@ -61,7 +61,7 @@
     {% endif %}
 
     {% if post.arxiv and post.doi %}
-      <p>arXiv: <a href=" https://arxiv.org/abs/{{ post.arxiv }} ">{{ post.arxiv }}</a></p>
+      <p>arXiv: <a href=" https://arxiv.org/abs/{{ post.arxiv }} ">{{ post.arxiv }}</a> &mdash; DOI: <a https://doi.org/{{ post.doi }} ">{{ post.arxiv }}</a></p>
     {% elsif post.arxiv %}
       <p>arXiv :<a href=" https://arxiv.org/abs/{{ post.arxiv }} ">{{ post.arxiv }}</a></p>
     {% elsif post.doi %}
