@@ -6,6 +6,7 @@ title:       "Paper Title Number 2"
 authors:     "Dimitris Vardakis, Alexander Volberg"
 date:        2015-10-01
 journal:     "Journal 2"
+publisher:   "Occult Society Publications"
 volume:      
 issue:       
 number:      "0"
