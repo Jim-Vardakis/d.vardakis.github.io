@@ -18,7 +18,7 @@
     <p>{{ post.authors }}<br>
       <strong>{{ title }}</strong> [<a href="{{ post.file }}">PDF</a>]</p>
 
-    <p>In: {{ post.journal }} <b>{{ post.volume }}</b>.{{ post.issue }}({{ post.number }}) {{ post.date | default: "1900-01-01" | date: "(%Y)" }}</p>
+    <p>In: {{ post.journal }} <b>{{ post.volume }}</b>.{{ post.issue }}({{ post.number }}) {{ post.date | default: "1900-01-01" | date: "(%Y)" }}, pp {{ post.pages }}.</p>
 
     {% if post.arxiv and post.doi %}
       <p>arXiv: <a href=" https://arxiv.org/abs/{{ post.arxiv }} ">{{ post.arxiv }}</a> &mdash; DOI: <a href=" https://doi.org/{{ post.doi }} ">{{ post.doi }}</a></p>
