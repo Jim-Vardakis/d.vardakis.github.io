@@ -6,10 +6,10 @@ title:       "Paper Title Number 2"
 authors:     "Dimitris Vardakis, Alexander Volberg"
 date:        2015-10-01
 journal:     "Journal 2"
-volume:      101
+volume:      
 issue:       
 number:      "0"
-pages:       '263&ndash;297'
+pages:       
 publisher:   "International Press of Boston"
 
 arxiv:       '2205.14559'
