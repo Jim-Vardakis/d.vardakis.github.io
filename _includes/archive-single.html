@@ -29,6 +29,9 @@
     {% if post.authors %}
       <p>{{ post.authors}}.</p>
     {% endif %}
+    {% if post.file %}
+      <a href="{{ base_path }}{{ post.file }}" rel="permalink">{{ [pdf] }}</a>
+    {% endif %}
     
     <h3 class="archive__item-title" itemprop="headline">
       {% if post.link %}
