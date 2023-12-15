@@ -5,7 +5,7 @@ file:        'http://academicpages.github.io/files/paper3.pdf'
 title:       "Paper Title Number 2"
 authors:     "Dimitris Vardakis, Alexander Volberg"
 date:        2015-10-01
-journal:     "Journal 2"
+journal:     
 publisher:   "Occult Society Publications"
 volume:      
 issue:       
