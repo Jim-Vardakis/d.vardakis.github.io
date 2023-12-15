@@ -43,11 +43,11 @@
       {% endif %}
     
       {% if post.arxiv and post.doi %}
-        | arXiv: <a href=" https://arxiv.org/abs/{{ post.arxiv }} ">{{ post.arxiv }}</a> | DOI: <a href=" https://doi.org/{{ post.doi }} ">{{ post.doi }}</a>
+        || arXiv: <a href=" https://arxiv.org/abs/{{ post.arxiv }} ">{{ post.arxiv }}</a> || DOI: <a href=" https://doi.org/{{ post.doi }} ">{{ post.doi }}</a>
       {% elsif post.arxiv %}
-        | arXiv: <a href=" https://arxiv.org/abs/{{ post.arxiv }} ">{{ post.arxiv }}</a>
+        || arXiv: <a href=" https://arxiv.org/abs/{{ post.arxiv }} ">{{ post.arxiv }}</a>
       {% elsif post.doi %}
-        | DOI: <a href=" https://doi.org/{{ post.doi }} ">{{ post.doi }}</a>
+        || DOI: <a href=" https://doi.org/{{ post.doi }} ">{{ post.doi }}</a>
       {% endif %}
     </p>
 
