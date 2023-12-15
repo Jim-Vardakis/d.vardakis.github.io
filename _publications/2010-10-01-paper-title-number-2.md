@@ -8,7 +8,7 @@ date:        2015-10-01
 journal:     "Journal 2"
 volume:      101
 issue:       
-number:      0
+number:      "0"
 pages:       '263&ndash;297'
 publisher:   "International Press of Boston"
 
