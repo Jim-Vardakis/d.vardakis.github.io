@@ -18,12 +18,20 @@
     <p>{{ post.authors }}<br>
       <strong>{{ title }}</strong> [<a href="{{ post.file }}">PDF</a>]</p>
 
-    <p>In: <i>{{ post.journal }}</i> <b>{{ post.volume }}</b>.{{ post.issue }}({{ post.number }}) {{ post.date | default: "1900-01-01" | date: "(%Y)" }}, pp {{ post.pages }}</p>
-
-    {% if post.number %}
+    {% if post.number and post.issue and post.pages %}
       <p>In: <i>{{ post.journal }}</i> <b>{{ post.volume }}</b>.{{ post.issue }}({{ post.number }}) {{ post.date | default: "1900-01-01" | date: "(%Y)" }}, pp {{ post.pages }}</p>
-    {% else %}
+    {% elsif post.number and post.issue %}
+      <p>In: <i>{{ post.journal }}</i> <b>{{ post.volume }}</b>.{{ post.issue }}({{ post.number }}) {{ post.date | default: "1900-01-01" | date: "(%Y)" }}</p>
+    {% elsif post.number and post.pages %}
+      <p>In: <i>{{ post.journal }}</i> <b>{{ post.volume }}</b>({{ post.number }}) {{ post.date | default: "1900-01-01" | date: "(%Y)" }}, pp {{ post.pages }}</p>
+    {% elsif post.number %}
+      <p>In: <i>{{ post.journal }}</i> <b>{{ post.volume }}</b>({{ post.number }}) {{ post.date | default: "1900-01-01" | date: "(%Y)" }}</p>
+    {% elsif post.issue and post.pages %}
       <p>In: <i>{{ post.journal }}</i> <b>{{ post.volume }}</b>.{{ post.issue }} {{ post.date | default: "1900-01-01" | date: "(%Y)" }}, pp {{ post.pages }}</p>
+    {% elsif post.issue %}
+      <p>In: <i>{{ post.journal }}</i> <b>{{ post.volume }}</b>.{{ post.issue }} {{ post.date | default: "1900-01-01" | date: "(%Y)" }}</p>
+    {% elsif post.pages %}
+      <p>In: <i>{{ post.journal }}</i> <b>{{ post.volume }}</b> {{ post.date | default: "1900-01-01" | date: "(%Y)" }}, pp {{ post.pages }}</p>
     {% endif %}
     
     {% if post.arxiv and post.doi %}
