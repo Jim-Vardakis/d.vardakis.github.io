@@ -1,5 +1,6 @@
 ---
 collection:  publications
+permalink:   /publication/2015-10-01-paper-title-number-3
 file:        'http://academicpages.github.io/files/paper3.pdf'
 
 title:       "Paper Title Number 3"
