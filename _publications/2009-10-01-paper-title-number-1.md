@@ -11,7 +11,8 @@ issue:
 number:      "0"
 pages:       
 
-preprint:    true
+accepted:    true
+preprint:    false
 arxiv:       '2205.14559'
 doi:         
 ---
