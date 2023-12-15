@@ -1,15 +1,17 @@
 ---
-title: "Paper Title Number 2"
-collection: publications
-permalink: /publication/2010-10-01-paper-title-number-2
-excerpt: 'This paper is about the number 2. The number 3 is left for future work.'
-date: 2010-10-01
-venue: 'Journal 1'
-paperurl: 'http://academicpages.github.io/files/paper2.pdf'
-citation: 'Your Name, You. (2010). &quot;Paper Title Number 2.&quot; <i>Journal 1</i>. 1(2).'
+collection:  publications
+file:        'http://academicpages.github.io/files/paper3.pdf'
+
+title:       "Paper Title Number 2"
+authors:     "Dimitris Vardakis, Alexander Volberg"
+date:        2015-10-01
+journal:     "Journal 2"
+volume:      101
+issue:       
+number:      0
+pages:       '263&ndash;297'
+publisher:   "International Press of Boston"
+
+arxiv:       '2205.14559'
+doi:         '10.1016/j.jmaa.2023.127622'
 ---
-This paper is about the number 2. The number 3 is left for future work.
-
-[Download paper here](http://academicpages.github.io/files/paper2.pdf)
-
-Recommended citation: Your Name, You. (2010). "Paper Title Number 2." <i>Journal 1</i>. 1(2).
