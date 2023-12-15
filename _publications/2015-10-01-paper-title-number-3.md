@@ -10,8 +10,10 @@ volume:      101
 issue:       6
 number:      0
 pages:       '263&ndash;297'
-publisher:   "International Press of Boston"
 
 arxiv:       '2205.14559'
 doi:         '10.1016/j.jmaa.2023.127622'
+
+accepted:    true
+preprint:    false
 ---
