@@ -60,8 +60,12 @@
       <p>Download <a href=" {{ post.paperurl }} "><u>here</u></a></p>
     {% endif %}
 
-    {% if post.arxiv %}
+    {% if post.arxiv and post.doi %}
+      <p><a href=" https://doi.org/{{ post.doi }} ">DOI: {{ post.doi }}</a> --- <a href=" https://arxiv.org/abs/{{ post.arxiv }} ">arXiv:{{ post.arxiv }}</a></p>
+    {% esleif post.arxiv %}
       <p><a href=" https://arxiv.org/abs/{{ post.arxiv }} ">arXiv:{{ post.arxiv }}</a></p>
+    {% esleif post.doi %}
+      <p><a href=" https://doi.org/{{ post.doi }} ">DOI: {{ post.doi }}</a></p>
     {% endif %}
 
   </article>
