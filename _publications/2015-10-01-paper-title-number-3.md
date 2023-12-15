@@ -12,7 +12,7 @@ arxiv: '2205.14559'
 doi: '10.1016/j.jmaa.2023.127622'
 
 venue:       
-file:        http\://arxiv.org/pdf/1904.09034v2:PDF
+file:        /publication/2015-10-01-paper-title-number-3
 journal:     Acta Mathematica
 year:        1991
 number:      0
