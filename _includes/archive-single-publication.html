@@ -18,7 +18,7 @@
     <p>{{ post.authors }}<br>
       <strong>{{ title }}</strong> [<a href="{{ post.file }}">PDF</a>]<br>
 
-      {% if post.journal and post.submitted %}
+      {% if post.journal and post.accepted %}
         To appear in: <i>{{ post.journal }}</i><br>
       {% elsif post.journal %}
         {% if post.number and post.issue and post.pages %}
