@@ -1,6 +1,6 @@
 ---
 collection:  publications
-file:        'http://jim-vardakis.github.io/files/boundary_analytic.pdf'
+file:        'http://jim-vardakis.github.io/files/CRMATH_2021_359_10_1233_0.pdf'
 
 title:       "Free boundary problems via Sakai's theorem"
 authors:     "Dimitris Vardakis, Alexander Volberg"
