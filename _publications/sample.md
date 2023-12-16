@@ -1,0 +1,4 @@
+---
+collections: publications
+title: title
+---
