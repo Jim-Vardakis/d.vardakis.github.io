@@ -38,21 +38,7 @@
         {% endif %}
       {% endif %}
 
-      {% if post.preprint %}
-        (preprint)
-      {% endif %}
-
       
-        || arXiv: <a href=" https://arxiv.org/abs/{{ post.arxiv }} ">{{ post.arxiv }}</a>
-      
-      
-      {% if post.doi %}
-        || DOI: <a href=" https://doi.org/{{ post.doi }} ">{{ post.doi }}</a>
-      {% endif %}
-      
-      {% if post.journalurl %}
-        || URL: <a href=" {{ post.journalurl }} ">{{ post.journal }}</a>
-      {% endif %}
     </p>
 
   </article>
