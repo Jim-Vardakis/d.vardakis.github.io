@@ -1,19 +1,20 @@
 ---
 collection:  publications
-file:        'http://academicpages.github.io/files/paper3.pdf'
+file:        'http://jim-vardakis.github.io/files/boundary_analytic.pdf'
 
-title:       "Paper Title Number 3"
+title:       "Free boundary problems via Sakai's Theorem"
 authors:     "Dimitris Vardakis, Alexander Volberg"
-date:        2015-10-01
-journal:     "Journal 1"
-volume:      101
-issue:       6
-number:      0
-pages:       '263&ndash;297'
+date:        2022
+journal:     "Algebra i Analiz"
+volume:      34
+issue:       3
+number:      
+pages:       '252&ndash;275'
 
-arxiv:       '2205.14559'
-doi:         '10.1016/j.jmaa.2023.127622'
+arxiv:       '2105.14570'
+doi:         
+url:         'https://www.mathnet.ru/php/archive.phtml?wshow=paper&jrnid=aa&paperid=1818&option_lang=eng'
 
-galleys:     true
+galleys:     false  # if accepted and not yet published, write galleys = true
 preprint:    false
 ---
