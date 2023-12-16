@@ -41,11 +41,15 @@
       {% if post.preprint %}
         (preprint)
       {% endif %}
-    
-      {% if post.doi and post.url %}
-        || arXiv: <a href=" https://arxiv.org/abs/{{ post.arxiv }} ">{{ post.arxiv }}</a> || DOI: <a href=" https://doi.org/{{ post.doi }} ">{{ post.doi }}</a>
-      {% elsif post.url %}
-        || arXiv: <a href=" {{ post.url }} ">{{ post.url }}</a>
+
+        || arXiv: <a href=" https://arxiv.org/abs/{{ post.arxiv }} ">{{ post.arxiv }}</a>
+      
+      {% if post.doi %}
+        || DOI: <a href=" https://doi.org/{{ post.doi }} ">{{ post.doi }}</a>
+      {% endif %}
+      
+      {% if post.url %}
+        || At <a href=" {{ post.journalurl }} ">{{ post.journal }}</a>
       {% endif %}
     </p>
 
