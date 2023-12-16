@@ -1,15 +1,15 @@
 ---
 collection:  publications
-file:        'http://jim-vardakis.github.io/files/random_disks.pdf'
+file:        'http://jim-vardakis.github.io/files/boundary_analytic.pdf'
 
-title:       "The Buffon's needle problem for random planar disk-like Cantor sets"
+title:       "Free boundary problems via Sakai's theorem"
 authors:     "Dimitris Vardakis, Alexander Volberg"
-date:        2024-01-15
-journal:     "Journal of Mathematical Analysis and Applications"
-volume:      529
-issue:       2
+date:        2022-01-01
+journal:     "Algebra i Analiz"
+volume:      34
+issue:       3
 number:      
-pages:       
+pages:       "252&ndash;275"
 
 arxiv:       '2205.14559'
 doi:         '10.1016/j.jmaa.2023.127622'
