@@ -4,7 +4,7 @@ file:        'http://jim-vardakis.github.io/files/CRMATH_2021_359_10_1233_0.pdf'
 
 title:       "Free boundary problems via Sakai's theorem"
 authors:     "Dimitris Vardakis, Alexander Volberg"
-date:        2022-01-01
+date:        2021
 journal:     "Algebra i Analiz"
 volume:      34
 issue:       3
