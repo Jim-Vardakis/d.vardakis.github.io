@@ -13,7 +13,7 @@ pages:
 
 arxiv:       '2205.14559'
 doi:         '10.1016/j.jmaa.2023.127622'
-url:         
+journalurl:         
 
 galleys:     false
 preprint:    false
