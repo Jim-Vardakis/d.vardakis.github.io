@@ -15,6 +15,6 @@ arxiv:       '2105.14570'
 doi:         
 url:         'https://www.mathnet.ru/php/archive.phtml?wshow=paper&jrnid=aa&paperid=1818&option_lang=eng'
 
-galleys:     false  # if accepted and not yet published, write galleys = true
+galleys:     false
 preprint:    false
 ---
