@@ -4,7 +4,7 @@ file:        'http://jim-vardakis.github.io/files/CRMATH_2021__359_10_1233_0.pdf
 
 title:       "Free boundary problems in the spirit of Sakai’s theorem"
 authors:     "Dimitris Vardakis, Alexander Volberg"
-date:        2021-01-01
+date:        2021-12-31
 journal:     "Comptes Rendus. Mathématique"
 volume:      359
 issue:       
