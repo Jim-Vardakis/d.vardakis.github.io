@@ -14,6 +14,6 @@ pages:       '263&ndash;297'
 arxiv:       '2205.14559'
 doi:         '10.1016/j.jmaa.2023.127622'
 
-accepted:    false
+galleys:     true
 preprint:    false
 ---
