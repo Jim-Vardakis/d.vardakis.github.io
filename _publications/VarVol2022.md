@@ -12,8 +12,8 @@ number:
 pages:       "252&ndash;275"
 
 arxiv:       '2205.14559'
-doi:         '10.1016/j.jmaa.2023.127622'
-url:         
+doi:         
+url:         'https://www.mathnet.ru/php/archive.phtml?wshow=paper&jrnid=aa&paperid=1818&option_lang=eng'
 
 galleys:     false
 preprint:    false
