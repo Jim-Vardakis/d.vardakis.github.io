@@ -1,6 +1,6 @@
 ---
 collection:  publications
-file:        'http://jimvardakis.github.io/files/random_disks.pdf'
+file:        'http://jim-vardakis.github.io/files/random_disks.pdf'
 
 title:       "The Buffon's needle problem for random planar disk-like Cantor sets"
 authors:     "Dimitris Vardakis, Alexander Volberg"
