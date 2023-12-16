@@ -13,7 +13,7 @@ pages:       '252&ndash;275'
 
 arxiv:       '2105.14570'
 doi:         
-url:         
+url:         "https://www.mathnet.ru/php/archive.phtml?wshow=paper&jrnid=aa&paperid=1818&option_lang=eng"
 
 galleys:     true
 preprint:    false
