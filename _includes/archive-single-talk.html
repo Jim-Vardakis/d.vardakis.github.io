@@ -27,7 +27,12 @@
     {% endif %}
 
     <p>
-      <strong>{{ title }}</strong> <i>{{ post.type }} at {{ post.event }}</i><br>
+      <strong>{{ title }}</strong> <i>{{ post.type }} at {{ post.event }}</i>
+
+      {% if post.eventurl %}
+        [<a href=" {{ post.eventurl }} ">link</a>]
+      {% endif %}
+      <br>
 
       {{ post.institution }} &mdash;
       
