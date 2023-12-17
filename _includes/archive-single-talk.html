@@ -27,18 +27,8 @@
     {% endif %}
 
     <p>
-      <strong>{{ title }}</strong>
-      <i>{{ post.type }} at {{ post.event }}</i>
-      <br>
-
-      {{ post.institution }}
-      <!-- flush right 
-      {% if post.online %}
-        (online)
-      {% eslif %} -->
-        {{ post.city }}, {{ post.country }},
-      <!-- {% endif %} -->
-      {{ post.month }} {{ post.year }}
+      <strong>{{ title }}</strong> <i>{{ post.type }} at {{ post.event }}</i><br>
+      {{ post.institution }}{{ post.city }}, {{ post.country }},{{ post.month }} {{ post.year }}
     </p>
 
   </article>
