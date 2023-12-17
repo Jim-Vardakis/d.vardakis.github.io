@@ -32,7 +32,9 @@
       {{ post.institution }} &mdash;
       
       {% if post.location %}
-         {{ post.location }}
+        {{ post.location }}
+      {% elsif %}
+        (online)
       {% endif %}
       
       &mdash; {{ post.month }} {{ post.year }}
