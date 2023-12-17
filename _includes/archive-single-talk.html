@@ -29,7 +29,7 @@
     <p>
       <strong>{{ title }}</strong> <i>{{ post.type }} at {{ post.event }}</i><br>
 
-      {% if post.online %}
+      {% if post.online == true %}
         {{ post.institution }} &mdash; (online) &mdash; {{ post.month }} {{ post.year }}
       {% elsif %}
         {{ post.institution }} &mdash; {{ post.city }}, {{ post.country }} &mdash; {{ post.month }} {{ post.year }}
