@@ -30,20 +30,12 @@
       <strong>{{ title }}</strong> <i>{{ post.type }} at {{ post.event }}</i><br>
 
       {{ post.institution }} &mdash;
-
-      {% if post.city %}
-        {{ post.city  }},
-      {% endif %}
       
-      {% if post.country %}
-        {{ post.country }}
+      {% if post.location %}
+        {{ post.location }} &mdash;
       {% endif %}
 
-      {% if post.online %}
-        (online)
-      {% endif %}
-      
-      &mdash; {{ post.month }} {{ post.year }}
+      {{ post.month }} {{ post.year }}
     </p>
 
   </article>
