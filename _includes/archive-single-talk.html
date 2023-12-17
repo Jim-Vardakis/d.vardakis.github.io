@@ -29,11 +29,13 @@
     <p>
       <strong>{{ title }}</strong> <i>{{ post.type }} at {{ post.event }}</i><br>
 
+      {{ post.institution }} &mdash;
+      
       {% if post.location %}
-        {{ post.institution }} &mdash; {{ post.location }} &mdash; {{ post.month }} {{ post.year }}
-      {% elsif %}
-        {{ post.institution }} &mdash; (online) &mdash; {{ post.month }} {{ post.year }}
+         {{ post.location }}
       {% endif %}
+      
+      &mdash; {{ post.month }} {{ post.year }}
     </p>
 
   </article>
