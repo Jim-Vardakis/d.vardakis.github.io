@@ -225,7 +225,7 @@ defaults:
       path: ""
       type: publications
     values:
-      layout: single
+      layout: archive-taxonomy
       author_profile: true
       share: true
       comments: true
@@ -243,7 +243,7 @@ defaults:
       path: ""
       type: talks
     values:
-      layout: collection
+      layout: splash
       author_profile: true
       share: true
 
