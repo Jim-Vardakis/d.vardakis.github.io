@@ -12,7 +12,7 @@ I finished my undergraduate studies at the University of Crete in Greece, and th
 
 My Research
 ======
-includes Harmonic Analysis, Geometric Measure Theory and Dynamical Systems. I am interested in the decay rate of the Favard length of (random) Cantor sets and on certain one-phase problems. Currently, I am working on extending the known boundedness results of (weighted) Calderón-Zygmund operators into the matrix-weighted setting.
+includes Harmonic Analysis, Geometric Measure Theory and Dynamical Systems. I am interested in the decay rate of the Favard length of (random) Cantor sets and on certain one-phase problems. Currently, I am working on extending the known boundedness results of (weighted) Calderón-Zygmund operators into the matrix-weighted setting. At the same time, I am investigating whether it's possible to construct a Julia set through random iterations.
 
 Research Interests
 ------
