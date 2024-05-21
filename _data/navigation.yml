@@ -17,7 +17,8 @@ main:
     
   - title: "CV"
     #  url: /cv/
-    url: /files/online CV.pdf
+    url: https://github.com/Jim-Vardakis/CV-Resume/blob/66ba8f8959744fb5090c77df7332928d91621f21/CV%20Resume.pdf
+    # url: /files/online CV.pdf
     
   #- title: "Guide"
   #  url: /markdown/
