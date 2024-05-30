@@ -2,22 +2,23 @@
 main:
   #- title: "Teaching"
   #  url: /teaching/
-    
+  
+  - title: "Publications & Preprints"
+    url: /publications/
+  
   - title: "Talks"
     url: /talks/
-    
-  - title: "Publications & Preprints"
-    url: /publications/      
-    
+  
   #- title: "Portfolio"
   #  url: /portfolio/
-        
+  
   #- title: "Blog Posts"
   #  url: /year-archive/
-    
+  
   - title: "CV"
     #  url: /cv/
     url: /files/CV Resume.pdf
-    
+  
   #- title: "Guide"
   #  url: /markdown/
+  
